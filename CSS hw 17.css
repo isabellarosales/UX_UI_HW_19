@@ -1,0 +1,154 @@
+/*Nav Bar*/
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    background-color: #F2ECE4;
+    width: 74%;
+    padding: 30px;
+}
+.imgbgcolor{
+background-color: #F2ECE4;
+display:inline-block;
+padding:10px;
+}
+nav{
+    width: 100%;
+    padding: 1%;
+}
+.tab{
+    margin-right: 2.5em;
+}
+ul{
+    width: 80%;
+    margin-left: auto;
+    display:inline-block;
+}
+.donate{
+    background-color: black;
+    color: white;
+}
+
+/*hero image*/
+.heroImg{
+    height: 680px;
+    margin: 0 auto;
+    background-color: #F2ECE4;
+}
+.container{
+    position: relative;
+}
+.quote{
+    background-color: #C1D8D7;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px
+}
+
+/*footer*/
+footer{
+    background-color: #C1D8D7;
+    padding: 0%;
+}
+footer>ul{
+    /*vertical-align: top;*/
+    padding: 1%;
+}
+.donate2{
+    background-color: white;
+    color: black;
+    padding: 0.5em;%;
+}
+.footerflex{
+    display:flex;
+}
+.footerflex_child1{
+    justify-content: center;
+}
+.footerflex_child2{
+    justify-content: center;
+}
+.footerflex_child3{
+    justify-content: center;
+}
+
+/* The Problem */
+.TheProblem{
+position: center;
+text-align: center;
+background-color: #33808F;
+
+}
+.flexContainer{
+    display: flex;
+}
+.flexitem{
+    flex-direction: column;
+}
+
+/*Our Work header*/
+.OWcontainer{
+    position:relative;
+    text-align: center;
+    color:white;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    
+}
+.size{
+    font-size: 500%;
+}
+/*Our Work description*/
+.bgcolor{
+    background-color: #F2ECE4;
+}
+.OWflex{
+    display:flex
+}
+.OWflex_child{
+    justify-content: space-around;
+    background-color: #C1D8D7;
+    padding: 2%;
+}
+.OWflex_child1{
+    width: 700px;
+    padding: 4%;
+}
+.flexchild{
+    justify-content: space-evenly;
+    width: 600px;
+    padding:4%;
+}
+
+/* media query */
+@media only screen and (max-width: 600){
+    flex-direction: column;
+    .OWflex_child{
+        width:100%;
+    }
+    .flexchild{
+        width:100%;
+    }
+    .flexitem{
+        width:100%;
+    }
+    .footerflex_child1{
+        width: 100%;
+    }
+    .footerflex_child2{
+        width:100%;
+    }
+    .footerflex_child3{
+        width:100%;
+    }
+}
